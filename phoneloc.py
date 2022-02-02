@@ -18,4 +18,6 @@ phonenumbertrack=phonenumbers.parse(input)
 track=geocoder.description_for_number(phonenumbertrack,'en')
 time=timezone.time_zones_for_number(phonenumbertrack)
 carriername=carrier.name_for_number(phonenumbertrack,'en')
-print(f'Location:{track}\n Provider Name:{carriername}\n Timezone:{time}')
+print(f'''Location:{track} Provider
+Name:{carriername} 
+Timezone:{time}''')
