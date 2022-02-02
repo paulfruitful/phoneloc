@@ -11,13 +11,11 @@ pkg install python
 
 pkg install colorama
 
-pip install phonenumbers
-
 git clone https://github.com/paulfruitful/phoneloc.git
 
 cd phoneloc
 
-python phoneloc.py
+python requirement.py
 
 _Always Remember To Use The Update Button_
 
