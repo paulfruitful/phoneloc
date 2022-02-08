@@ -25,6 +25,7 @@ print(Fore.RED+"""DISCLAIMER: This Tool Is For Educational Purposes Only!!!!
 update=input (Fore.GREEN+"Do You Want To Update [y/n]")
 if update=='y':
    os.system("""cd 
+                rm -rf phoneloc   
             gitclone https://github.com/paulfruitful/phoneloc""")
 else:
  print("Always Update")
